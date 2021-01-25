@@ -1,0 +1,6 @@
+优点：
+View与Model隔离，View换了，Model不受影响，Model换其他的数据源，View层也不受影响。
+一个View可以连接多个Model，有些Model可以复用。
+缺点：
+这里我们主要指Android上的缺点，不适合在Android开发上使用。在Android开发中，
+View的相关内容和Controller都写到一起了，会让Activity、Fragment越来越臃肿。
